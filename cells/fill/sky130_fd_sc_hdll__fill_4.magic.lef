@@ -36,7 +36,7 @@ MACRO sky130_fd_sc_hdll__fill_4
   SITE unithd ;
   PIN VGND
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE GROUND ;
     PORT
       LAYER li1 ;
         RECT 0.000000 -0.085000 1.840000 0.085000 ;
@@ -51,7 +51,7 @@ MACRO sky130_fd_sc_hdll__fill_4
   END VGND
   PIN VPWR
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE POWER ;
     PORT
       LAYER li1 ;
         RECT 0.000000 2.635000 1.840000 2.805000 ;

@@ -30,7 +30,7 @@ MACRO sky130_fd_sc_hdll__decap_6
   SITE unithd ;
   PIN VGND
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE GROUND ;
     PORT
       LAYER met1 ;
         RECT 0.000000 -0.240000 2.760000 0.240000 ;
@@ -38,7 +38,7 @@ MACRO sky130_fd_sc_hdll__decap_6
   END VGND
   PIN VPWR
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE POWER ;
     PORT
       LAYER met1 ;
         RECT 0.000000 2.480000 2.760000 2.960000 ;

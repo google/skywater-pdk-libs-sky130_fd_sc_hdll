@@ -39,11 +39,11 @@ MACRO sky130_fd_sc_hdll__diode_2
   END DIODE
   PIN VGND
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE GROUND ;
   END VGND
   PIN VPWR
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE POWER ;
   END VPWR
   PROPERTY maskLayoutSubType "abstract" ;
   PROPERTY prCellType "standard" ;

@@ -84,9 +84,8 @@ MACRO sky130_fd_sc_hdll__sdfxtp_2
     END
   END SCE
   PIN VGND
-    ANTENNADIFFAREA  1.305350 ;
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE GROUND ;
     PORT
       LAYER li1 ;
         RECT  0.000000 -0.085000 11.040000 0.085000 ;
@@ -127,9 +126,8 @@ MACRO sky130_fd_sc_hdll__sdfxtp_2
     END
   END VGND
   PIN VPWR
-    ANTENNADIFFAREA  1.711150 ;
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE POWER ;
     PORT
       LAYER li1 ;
         RECT  0.000000 2.635000 11.040000 2.805000 ;

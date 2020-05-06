@@ -113,7 +113,7 @@ MACRO sky130_fd_sc_hdll__sdfbbp_1
   END SET_B
   PIN VGND
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE GROUND ;
     PORT
       LAYER li1 ;
         RECT  0.000000 -0.085000 15.640000 0.085000 ;
@@ -131,7 +131,7 @@ MACRO sky130_fd_sc_hdll__sdfbbp_1
   END VGND
   PIN VPWR
     DIRECTION INOUT ;
-    USE SIGNAL ;
+    USE POWER ;
     PORT
       LAYER li1 ;
         RECT  0.000000 2.635000 15.640000 2.805000 ;
