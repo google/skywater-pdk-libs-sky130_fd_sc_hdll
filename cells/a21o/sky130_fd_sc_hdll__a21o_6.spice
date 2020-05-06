@@ -1,0 +1,53 @@
+* NGSPICE file created from sky130_fd_sc_hdll__a21o_6.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__a21o_6 A1 A2 B1 VGND VNB VPB VPWR X
+M1000 VGND A2 a_297_47# VNB nshort w=650000u l=150000u
++  ad=1.69e+12p pd=1.3e+07u as=1.69e+11p ps=1.82e+06u
+M1001 X a_213_47# VGND VNB nshort w=650000u l=150000u
++  ad=5.265e+11p pd=5.52e+06u as=0p ps=0u
+M1002 a_27_297# A1 VPWR VPB phighvt w=1e+06u l=180000u
++  ad=1.12e+12p pd=1.024e+07u as=1.7e+12p ps=1.54e+07u
+M1003 a_213_47# A1 a_131_47# VNB nshort w=650000u l=150000u
++  ad=3.51e+11p pd=3.68e+06u as=1.69e+11p ps=1.82e+06u
+M1004 X a_213_47# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.7e+11p pd=7.74e+06u as=0p ps=0u
+M1005 X a_213_47# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VPWR a_213_47# X VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 a_297_47# A1 a_213_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 a_27_297# B1 a_213_47# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.9e+11p ps=2.58e+06u
+M1009 VGND a_213_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 VPWR A2 a_27_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 a_213_47# B1 a_27_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_131_47# A2 VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 X a_213_47# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 a_213_47# B1 VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_27_297# A2 VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 X a_213_47# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 VGND a_213_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 VPWR a_213_47# X VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 VGND B1 a_213_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 VPWR A1 a_27_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 VPWR a_213_47# X VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 VGND a_213_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 X a_213_47# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

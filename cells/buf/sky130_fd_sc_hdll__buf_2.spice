@@ -1,0 +1,17 @@
+* NGSPICE file created from sky130_fd_sc_hdll__buf_2.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__buf_2 A VGND VNB VPB VPWR X
+M1000 VGND A a_27_47# VNB nshort w=420000u l=150000u
++  ad=4.4425e+11p pd=4.02e+06u as=1.302e+11p ps=1.46e+06u
+M1001 X a_27_47# VGND VNB nshort w=650000u l=150000u
++  ad=3.0875e+11p pd=2.25e+06u as=0p ps=0u
+M1002 VPWR A a_27_47# VPB phighvt w=640000u l=180000u
++  ad=7.094e+11p pd=5.48e+06u as=1.728e+11p ps=1.82e+06u
+M1003 X a_27_47# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=3.95e+11p pd=2.79e+06u as=0p ps=0u
+M1004 VPWR a_27_47# X VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VGND a_27_47# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

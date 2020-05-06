@@ -1,0 +1,53 @@
+* NGSPICE file created from sky130_fd_sc_hdll__nand2_6.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__nand2_6 A B VGND VNB VPB VPWR Y
+M1000 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=1.99e+12p pd=1.798e+07u as=1.74e+12p ps=1.548e+07u
+M1001 VPWR B Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1002 a_27_47# B VGND VNB nshort w=650000u l=150000u
++  ad=1.248e+12p pd=1.294e+07u as=7.215e+11p ps=6.12e+06u
+M1003 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 Y A a_27_47# VNB nshort w=650000u l=150000u
++  ad=6.89e+11p pd=6.02e+06u as=0p ps=0u
+M1006 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 VGND B a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 VPWR B Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 a_27_47# A Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 Y B VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 a_27_47# A Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 Y B VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 Y A a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_27_47# B VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 VPWR B Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_27_47# B VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 VGND B a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 Y B VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 VGND B a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 a_27_47# A Y VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 Y A a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

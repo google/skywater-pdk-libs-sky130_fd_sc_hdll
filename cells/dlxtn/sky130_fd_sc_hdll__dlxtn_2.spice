@@ -1,0 +1,45 @@
+* NGSPICE file created from sky130_fd_sc_hdll__dlxtn_2.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__dlxtn_2 D GATE_N VGND VNB VPB VPWR Q
+M1000 a_211_363# a_27_47# VGND VNB nshort w=420000u l=150000u
++  ad=1.092e+11p pd=1.36e+06u as=7.76e+11p ps=8.18e+06u
+M1001 a_718_47# a_211_363# a_608_413# VNB nshort w=360000u l=150000u
++  ad=1.32e+11p pd=1.49e+06u as=1.35e+11p ps=1.47e+06u
+M1002 VPWR GATE_N a_27_47# VPB phighvt w=640000u l=180000u
++  ad=1.0446e+12p pd=1.022e+07u as=1.728e+11p ps=1.82e+06u
+M1003 a_503_369# a_319_47# VPWR VPB phighvt w=640000u l=180000u
++  ad=2.021e+11p pd=1.97e+06u as=0p ps=0u
+M1004 VPWR a_783_21# Q VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.9e+11p ps=2.58e+06u
+M1005 a_739_413# a_27_47# a_608_413# VPB phighvt w=420000u l=180000u
++  ad=9.66e+10p pd=1.3e+06u as=1.995e+11p ps=1.79e+06u
+M1006 a_505_47# a_319_47# VGND VNB nshort w=420000u l=150000u
++  ad=1.554e+11p pd=1.62e+06u as=0p ps=0u
+M1007 VGND a_783_21# Q VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=2.08e+11p ps=1.94e+06u
+M1008 Q a_783_21# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VGND D a_319_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.302e+11p ps=1.46e+06u
+M1010 VPWR D a_319_47# VPB phighvt w=640000u l=180000u
++  ad=0p pd=0u as=1.728e+11p ps=1.82e+06u
+M1011 VGND a_783_21# a_718_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 Q a_783_21# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 a_608_413# a_27_47# a_505_47# VNB nshort w=360000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 VGND a_608_413# a_783_21# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=2.015e+11p ps=1.92e+06u
+M1015 VGND GATE_N a_27_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.302e+11p ps=1.46e+06u
+M1016 a_211_363# a_27_47# VPWR VPB phighvt w=640000u l=180000u
++  ad=1.728e+11p pd=1.82e+06u as=0p ps=0u
+M1017 VPWR a_608_413# a_783_21# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1018 a_608_413# a_211_363# a_503_369# VPB phighvt w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 VPWR a_783_21# a_739_413# VPB phighvt w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

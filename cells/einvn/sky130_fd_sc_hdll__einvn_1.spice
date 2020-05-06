@@ -1,0 +1,17 @@
+* NGSPICE file created from sky130_fd_sc_hdll__einvn_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__einvn_1 A TE_B VGND VNB VPB VPWR Z
+M1000 a_316_47# a_27_47# VGND VNB nshort w=650000u l=150000u
++  ad=3.8025e+11p pd=2.47e+06u as=5.255e+11p ps=2.97e+06u
+M1001 VPWR TE_B a_27_47# VPB phighvt w=640000u l=180000u
++  ad=3.144e+11p pd=2.69e+06u as=1.728e+11p ps=1.82e+06u
+M1002 VGND TE_B a_27_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.302e+11p ps=1.46e+06u
+M1003 Z A a_222_297# VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=1.065e+12p ps=4.13e+06u
+M1004 a_222_297# TE_B VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 Z A a_316_47# VNB nshort w=650000u l=150000u
++  ad=2.015e+11p pd=1.92e+06u as=0p ps=0u
+.ends
+

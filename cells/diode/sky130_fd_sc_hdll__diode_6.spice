@@ -1,0 +1,6 @@
+* NGSPICE file created from sky130_fd_sc_hdll__diode_6.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__diode_6 DIODE VGND VNB VPB VPWR
+D0 VNB DIODE ndiode p=1.47e+07u a=2.2032e+12p
+.ends
+

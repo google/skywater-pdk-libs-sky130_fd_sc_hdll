@@ -1,0 +1,87 @@
+{
+  "comp_attribute voltage_map": [
+    [
+      "VPWR",
+      1.8
+    ],
+    [
+      "VGND",
+      0.0
+    ],
+    [
+      "VNB",
+      0.0
+    ],
+    [
+      "VPB",
+      1.8
+    ]
+  ],
+  "default_max_transition": 1.5,
+  "define": [
+    {
+      "attribute_name": "switching_power_split_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "driver_model",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "leakage_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_constraint_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "min_pulse_width_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "default_arc_mode",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "def_sim_opt",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "simulator",
+      "attribute_type": "string",
+      "group_name": "library"
+    },
+    {
+      "attribute_name": "violation_delay_degrade_pct",
+      "attribute_type": "float",
+      "group_name": "timing"
+    },
+    {
+      "attribute_name": "sim_opt",
+      "attribute_type": "string",
+      "group_name": "timing"
+    },
+    {
+      "attribute_name": "snps_predriver_ratio",
+      "attribute_type": "string",
+      "group_name": "library"
+    }
+  ],
+  "leakage_sim_opt": "runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.04 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004",
+  "nom_temperature": 25.0,
+  "nom_voltage": 1.8,
+  "operating_conditions tt_025C_1v80": {
+    "process": 1.0,
+    "temperature": 25.0,
+    "tree_type": "balanced_tree",
+    "voltage": 1.8
+  }
+}

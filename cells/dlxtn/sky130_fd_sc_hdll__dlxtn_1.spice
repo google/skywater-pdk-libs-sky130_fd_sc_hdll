@@ -1,0 +1,41 @@
+* NGSPICE file created from sky130_fd_sc_hdll__dlxtn_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__dlxtn_1 D GATE_N VGND VNB VPB VPWR Q
+M1000 a_211_363# a_27_47# VGND VNB nshort w=420000u l=150000u
++  ad=1.092e+11p pd=1.36e+06u as=6.009e+11p ps=6.32e+06u
+M1001 VPWR GATE_N a_27_47# VPB phighvt w=640000u l=180000u
++  ad=7.846e+11p pd=7.7e+06u as=1.728e+11p ps=1.82e+06u
+M1002 VPWR a_607_47# a_760_21# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1003 Q a_760_21# VGND VNB nshort w=650000u l=150000u
++  ad=2.145e+11p pd=1.96e+06u as=0p ps=0u
+M1004 a_716_413# a_27_47# a_607_47# VPB phighvt w=420000u l=180000u
++  ad=9.66e+10p pd=1.3e+06u as=1.512e+11p ps=1.56e+06u
+M1005 VPWR a_760_21# a_716_413# VPB phighvt w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VGND a_607_47# a_760_21# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=2.015e+11p ps=1.92e+06u
+M1007 a_503_369# a_319_47# VPWR VPB phighvt w=640000u l=180000u
++  ad=2.021e+11p pd=1.97e+06u as=0p ps=0u
+M1008 VGND D a_319_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.302e+11p ps=1.46e+06u
+M1009 a_499_47# a_319_47# VGND VNB nshort w=420000u l=150000u
++  ad=1.554e+11p pd=1.62e+06u as=0p ps=0u
+M1010 a_695_47# a_211_363# a_607_47# VNB nshort w=360000u l=150000u
++  ad=1.32e+11p pd=1.49e+06u as=1.044e+11p ps=1.3e+06u
+M1011 VPWR D a_319_47# VPB phighvt w=640000u l=180000u
++  ad=0p pd=0u as=1.728e+11p ps=1.82e+06u
+M1012 VGND GATE_N a_27_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.302e+11p ps=1.46e+06u
+M1013 Q a_760_21# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=3.4e+11p pd=2.68e+06u as=0p ps=0u
+M1014 a_607_47# a_27_47# a_499_47# VNB nshort w=360000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_211_363# a_27_47# VPWR VPB phighvt w=640000u l=180000u
++  ad=1.728e+11p pd=1.82e+06u as=0p ps=0u
+M1016 VGND a_760_21# a_695_47# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_607_47# a_211_363# a_503_369# VPB phighvt w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

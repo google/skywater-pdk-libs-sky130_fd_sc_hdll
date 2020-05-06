@@ -1,0 +1,53 @@
+{
+ "description": "Buffered 4-input multiplexer.",
+ "file_prefix": "sky130_fd_sc_hdll__muxb4to1",
+ "library": "sky130_fd_sc_hdll",
+ "name": "muxb4to1",
+ "parameters": [],
+ "ports": [
+  [
+   "signal",
+   "Z",
+   "output",
+   ""
+  ],
+  [
+   "signal",
+   "D",
+   "input",
+   "[3:0]"
+  ],
+  [
+   "signal",
+   "S",
+   "input",
+   "[3:0]"
+  ],
+  [
+   "power",
+   "VPWR",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VGND",
+   "input",
+   "supply0"
+  ],
+  [
+   "power",
+   "VPB",
+   "input",
+   "supply1"
+  ],
+  [
+   "power",
+   "VNB",
+   "input",
+   "supply0"
+  ]
+ ],
+ "type": "cell",
+ "verilog_name": "sky130_fd_sc_hdll__muxb4to1"
+}

@@ -1,0 +1,3 @@
+sky130_fd_sc_hdll__diode_2	DIODE:I VGND:I VNB:I VPB:I VPWR:I
+Name	Formula				m	area	pj
+dI7	DIODE	VNB	DIODE	ndiode	1	0.4347	2.64

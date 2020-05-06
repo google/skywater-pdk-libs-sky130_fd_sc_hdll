@@ -1,0 +1,53 @@
+* NGSPICE file created from sky130_fd_sc_hdll__o211a_4.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__o211a_4 A1 A2 B1 C1 VGND VNB VPB VPWR X
+M1000 a_524_47# A2 VGND VNB nshort w=650000u l=150000u
++  ad=8.0275e+11p pd=7.67e+06u as=1.06925e+12p ps=9.79e+06u
+M1001 a_80_21# B1 VPWR VPB phighvt w=1e+06u l=180000u
++  ad=1.09e+12p pd=8.18e+06u as=1.795e+12p ps=1.559e+07u
+M1002 VPWR B1 a_80_21# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 VGND A2 a_524_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 VPWR C1 a_80_21# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 VPWR a_80_21# X VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=6e+11p ps=5.2e+06u
+M1006 a_80_21# A2 a_1010_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=3e+11p ps=2.6e+06u
+M1007 a_524_47# A1 VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 a_524_47# B1 a_818_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=1.5275e+11p ps=1.77e+06u
+M1009 X a_80_21# VGND VNB nshort w=650000u l=150000u
++  ad=4.16e+11p pd=3.88e+06u as=0p ps=0u
+M1010 VPWR a_80_21# X VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 VPWR A1 a_1202_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=3e+11p ps=2.6e+06u
+M1012 X a_80_21# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VGND a_80_21# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 a_80_21# C1 VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 a_607_47# B1 a_524_47# VNB nshort w=650000u l=150000u
++  ad=1.365e+11p pd=1.72e+06u as=0p ps=0u
+M1016 VGND A1 a_524_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 X a_80_21# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 a_1010_297# A1 VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 a_80_21# C1 a_607_47# VNB nshort w=650000u l=150000u
++  ad=3.5425e+11p pd=2.39e+06u as=0p ps=0u
+M1020 a_1202_297# A2 a_80_21# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 X a_80_21# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 VGND a_80_21# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 a_818_47# C1 a_80_21# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

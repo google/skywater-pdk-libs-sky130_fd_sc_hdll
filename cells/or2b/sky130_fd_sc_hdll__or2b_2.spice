@@ -1,0 +1,25 @@
+* NGSPICE file created from sky130_fd_sc_hdll__or2b_2.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__or2b_2 A B_N VGND VNB VPB VPWR X
+M1000 VGND B_N a_27_53# VNB nshort w=420000u l=150000u
++  ad=7.764e+11p pd=6.48e+06u as=1.302e+11p ps=1.46e+06u
+M1001 a_228_297# a_27_53# VGND VNB nshort w=420000u l=150000u
++  ad=1.134e+11p pd=1.38e+06u as=0p ps=0u
+M1002 VPWR a_228_297# X VPB phighvt w=1e+06u l=180000u
++  ad=7.191e+11p pd=6.69e+06u as=4.8e+11p ps=2.96e+06u
+M1003 a_27_53# B_N VPWR VPB phighvt w=420000u l=180000u
++  ad=1.134e+11p pd=1.38e+06u as=0p ps=0u
+M1004 a_318_297# a_27_53# a_228_297# VPB phighvt w=420000u l=180000u
++  ad=9.66e+10p pd=1.3e+06u as=1.134e+11p ps=1.38e+06u
+M1005 VPWR A a_318_297# VPB phighvt w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VGND a_228_297# X VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=3.315e+11p ps=2.32e+06u
+M1007 X a_228_297# VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 X a_228_297# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VGND A a_228_297# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

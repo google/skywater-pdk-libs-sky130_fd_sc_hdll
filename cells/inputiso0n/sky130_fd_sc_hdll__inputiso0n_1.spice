@@ -1,0 +1,17 @@
+* NGSPICE file created from sky130_fd_sc_hdll__inputiso0n_1.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__inputiso0n_1 A SLEEP_B VGND VNB VPB VPWR X
+M1000 X a_27_75# VPWR VPB phighvt w=1e+06u l=180000u
++  ad=3.7e+11p pd=2.74e+06u as=4.691e+11p ps=4.24e+06u
+M1001 X a_27_75# VGND VNB nshort w=650000u l=150000u
++  ad=1.69e+11p pd=1.82e+06u as=2.446e+11p ps=2.18e+06u
+M1002 a_27_75# A VPWR VPB phighvt w=420000u l=180000u
++  ad=1.218e+11p pd=1.42e+06u as=0p ps=0u
+M1003 VGND SLEEP_B a_123_75# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.134e+11p ps=1.38e+06u
+M1004 VPWR SLEEP_B a_27_75# VPB phighvt w=420000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 a_123_75# A a_27_75# VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=1.386e+11p ps=1.5e+06u
+.ends
+

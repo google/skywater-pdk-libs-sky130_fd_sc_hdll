@@ -1,0 +1,834 @@
+{
+  "creator": "Yosys 0.9+2406 (git sha1 46ed0db2, clang 7.0.1-8 -fPIC -Os)",
+  "modules": {
+    "sky130_fd_sc_hdll__muxb16to1": {
+      "attributes": {
+        "top": 1,
+        "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:33.1-62.10"
+      },
+      "ports": {
+        "Z": {
+          "direction": "output",
+          "bits": [ 2 ]
+        },
+        "D": {
+          "direction": "input",
+          "bits": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ]
+        },
+        "S": {
+          "direction": "input",
+          "bits": [ 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ]
+        }
+      },
+      "cells": {
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:45$1": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:45.30-45.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "Y": [ 35 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:46$3": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:46.30-46.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 36 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:47$5": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:47.30-47.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 37 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:48$7": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:48.30-48.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "Y": [ 38 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:49$9": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:49.30-49.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "Y": [ 39 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:50$11": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:50.30-50.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "Y": [ 40 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:51$13": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:51.30-51.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 9 ],
+            "Y": [ 41 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:52$15": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:52.30-52.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "Y": [ 42 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:53$17": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:53.30-53.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 11 ],
+            "Y": [ 43 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:54$19": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:54.30-54.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 12 ],
+            "Y": [ 44 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:55$21": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:55.30-55.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 13 ],
+            "Y": [ 45 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:56$23": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:56.30-56.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 14 ],
+            "Y": [ 46 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:57$25": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:57.30-57.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "Y": [ 47 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:58$27": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:58.30-58.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 16 ],
+            "Y": [ 48 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:59$29": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:59.30-59.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 17 ],
+            "Y": [ 49 ]
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:60$31": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": 0,
+            "A_WIDTH": 1,
+            "Y_WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:60.30-60.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 18 ],
+            "Y": [ 50 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$10": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 39 ],
+            "S": [ 23 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$12": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 40 ],
+            "S": [ 24 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$14": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 41 ],
+            "S": [ 25 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$16": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 42 ],
+            "S": [ 26 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$18": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 43 ],
+            "S": [ 27 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$2": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 35 ],
+            "S": [ 19 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$20": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 44 ],
+            "S": [ 28 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$22": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 45 ],
+            "S": [ 29 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$24": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 46 ],
+            "S": [ 30 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$26": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 47 ],
+            "S": [ 31 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$28": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 48 ],
+            "S": [ 32 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$30": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 49 ],
+            "S": [ 33 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$32": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 50 ],
+            "S": [ 34 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$4": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 36 ],
+            "S": [ 20 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 37 ],
+            "S": [ 21 ],
+            "Y": [ 2 ]
+          }
+        },
+        "$ternary$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0$8": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": 1
+          },
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:0.0-0.0"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 38 ],
+            "S": [ 22 ],
+            "Y": [ 2 ]
+          }
+        }
+      },
+      "netnames": {
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:45$1_Y": {
+          "hide_name": 1,
+          "bits": [ 35 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:45.30-45.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:46$3_Y": {
+          "hide_name": 1,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:46.30-46.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:47$5_Y": {
+          "hide_name": 1,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:47.30-47.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:48$7_Y": {
+          "hide_name": 1,
+          "bits": [ 38 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:48.30-48.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:49$9_Y": {
+          "hide_name": 1,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:49.30-49.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:50$11_Y": {
+          "hide_name": 1,
+          "bits": [ 40 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:50.30-50.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:51$13_Y": {
+          "hide_name": 1,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:51.30-51.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:52$15_Y": {
+          "hide_name": 1,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:52.30-52.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:53$17_Y": {
+          "hide_name": 1,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:53.30-53.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:54$19_Y": {
+          "hide_name": 1,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:54.30-54.35"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:55$21_Y": {
+          "hide_name": 1,
+          "bits": [ 45 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:55.30-55.36"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:56$23_Y": {
+          "hide_name": 1,
+          "bits": [ 46 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:56.30-56.36"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:57$25_Y": {
+          "hide_name": 1,
+          "bits": [ 47 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:57.30-57.36"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:58$27_Y": {
+          "hide_name": 1,
+          "bits": [ 48 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:58.30-58.36"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:59$29_Y": {
+          "hide_name": 1,
+          "bits": [ 49 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:59.30-59.36"
+          }
+        },
+        "$logic_not$./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:60$31_Y": {
+          "hide_name": 1,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:60.30-60.36"
+          }
+        },
+        "D": {
+          "hide_name": 0,
+          "bits": [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:41.19-41.20"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [ 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:42.19-42.20"
+          }
+        },
+        "Z": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./cells/muxb16to1/sky130_fd_sc_hdll__muxb16to1.functional.v:40.19-40.20"
+          }
+        }
+      }
+    }
+  }
+}

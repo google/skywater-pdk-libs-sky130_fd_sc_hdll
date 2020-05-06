@@ -1,0 +1,85 @@
+* NGSPICE file created from sky130_fd_sc_hdll__clkinv_16.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__clkinv_16 A VGND VNB VPB VPWR Y
+M1000 Y A VGND VNB nshort w=420000u l=150000u
++  ad=1.1739e+12p pd=1.231e+07u as=1.2285e+12p ps=1.341e+07u
+M1001 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=3.895e+12p pd=3.379e+07u as=3.755e+12p ps=3.151e+07u
+M1002 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1003 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1004 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1005 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1007 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1008 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1009 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1010 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1011 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1012 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1013 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1015 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1016 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1017 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1018 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1019 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1020 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1021 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1023 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1024 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1025 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1026 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1027 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1028 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1029 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1030 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1031 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1032 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1033 Y A VGND VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1034 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1035 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1036 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1037 Y A VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1038 VGND A Y VNB nshort w=420000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1039 VPWR A Y VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+

@@ -1,0 +1,327 @@
+* NGSPICE file created from sky130_fd_sc_hdll__muxb16to1_2.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hdll__muxb16to1_2 D[15] D[14] D[13] D[12] D[11] D[10] D[9] D[8]
++ D[7] D[6] D[5] D[4] D[3] D[2] D[1] D[0] S[15] S[14] S[13] S[12] S[11] S[10] S[9]
++ S[8] S[7] S[6] S[5] S[4] S[3] S[2] S[1] S[0] VGND VNB VPB VPWR Z
+M1000 a_2603_911# S[12] Z VNB nshort w=520000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=2.2464e+12p ps=2.528e+07u
+M1001 VPWR S[4] a_2854_265# VPB phighvt w=1e+06u l=180000u
++  ad=7.52e+12p pd=6.304e+07u as=2.7e+11p ps=2.54e+06u
+M1002 VPWR D[3] a_2112_333# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=8.211e+11p ps=7.41e+06u
+M1003 VPWR D[2] a_1315_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=8.211e+11p ps=7.41e+06u
+M1004 Z a_1989_47# a_2112_333# VPB phighvt w=820000u l=180000u
++  ad=3.8048e+12p pd=3.552e+07u as=0p ps=0u
+M1005 Z a_1566_265# a_1315_297# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1006 Z a_4142_793# a_3891_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=8.211e+11p ps=7.41e+06u
+M1007 VPWR S[12] a_2854_793# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1008 VPWR D[11] a_2112_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=8.211e+11p ps=7.41e+06u
+M1009 VPWR D[10] a_1315_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=8.211e+11p ps=7.41e+06u
+M1010 a_27_297# D[0] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1011 a_2133_915# D[11] VGND VNB nshort w=650000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=3.9312e+12p ps=4.208e+07u
+M1012 VGND S[14] a_4142_793# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1013 a_27_297# a_278_265# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1014 a_27_591# D[8] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1015 Z S[10] a_1315_911# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1016 a_3421_915# S[13] Z VNB nshort w=520000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=0p ps=0u
+M1017 a_4565_47# S[7] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1018 VGND D[14] a_3891_911# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1019 a_1989_47# S[3] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1020 a_27_911# S[8] Z VNB nshort w=520000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=0p ps=0u
+M1021 a_3891_911# S[14] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1022 Z S[5] a_3421_69# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1023 VPWR S[0] a_278_265# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1024 a_4709_69# D[7] VGND VNB nshort w=650000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=0p ps=0u
+M1025 a_2133_69# D[3] VGND VNB nshort w=650000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=0p ps=0u
+M1026 VGND D[9] a_845_915# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1027 VPWR S[8] a_278_793# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1028 a_845_69# S[1] Z VNB nshort w=520000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=0p ps=0u
+M1029 Z S[11] a_2133_915# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1030 a_2603_297# D[4] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1031 Z a_278_265# a_27_297# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1032 a_27_47# S[0] Z VNB nshort w=520000u l=150000u
++  ad=5.6745e+11p pd=5.52e+06u as=0p ps=0u
+M1033 VGND S[10] a_1566_793# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1034 a_2603_297# a_2854_265# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1035 a_1315_911# D[10] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1036 Z a_701_937# a_824_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=8.211e+11p ps=7.41e+06u
+M1037 Z S[1] a_845_69# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1038 a_2603_591# D[12] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1039 a_701_937# S[9] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1040 a_4565_937# S[15] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1041 Z S[0] a_27_47# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1042 a_27_47# D[0] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1043 a_1315_911# S[10] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1044 a_1315_591# a_1566_793# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1045 a_2112_591# a_1989_937# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1046 Z S[4] a_2603_47# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1047 VGND D[8] a_27_911# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1048 Z S[9] a_845_915# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1049 a_4688_591# a_4565_937# Z VPB phighvt w=820000u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1050 VGND D[7] a_4709_69# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1051 a_3400_333# D[5] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1052 a_824_333# D[1] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1053 a_1989_47# S[3] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1054 a_3421_69# S[5] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1055 a_3400_333# a_3277_47# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1056 a_824_591# D[9] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1057 VGND D[4] a_2603_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1058 a_3400_591# D[13] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1059 a_845_915# D[9] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1060 a_1989_937# S[11] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1061 a_4688_333# D[7] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1062 a_3891_297# D[6] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=8.211e+11p pd=7.41e+06u as=0p ps=0u
+M1063 VGND S[12] a_2854_793# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1064 VGND S[4] a_2854_265# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1065 a_3277_47# S[5] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1066 a_3891_297# a_4142_265# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1067 a_2133_915# S[11] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1068 a_4688_591# D[15] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1069 a_3891_591# D[14] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1070 a_3277_937# S[13] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1071 a_1989_937# S[11] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1072 a_701_47# S[1] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1073 VGND D[12] a_2603_911# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1074 VGND D[1] a_845_69# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1075 VPWR D[0] a_27_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1076 Z a_4565_937# a_4688_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1077 VPWR S[6] a_4142_265# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1078 VPWR D[8] a_27_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1079 VPWR D[5] a_3400_333# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1080 VPWR D[4] a_2603_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1081 VGND S[0] a_278_265# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1082 Z a_3277_47# a_3400_333# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1083 Z a_2854_265# a_2603_297# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1084 a_824_333# a_701_47# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1085 VPWR S[14] a_4142_793# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1086 a_2603_47# S[4] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1087 VPWR D[13] a_3400_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1088 VPWR D[12] a_2603_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1089 a_701_47# S[1] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1090 VGND D[5] a_3421_69# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1091 Z a_4142_265# a_3891_297# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1092 a_701_937# S[9] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1093 Z a_1989_937# a_2112_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1094 a_2603_47# D[4] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1095 Z a_1566_793# a_1315_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1096 a_3277_937# S[13] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1097 VPWR D[1] a_824_333# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1098 a_3277_47# S[5] VGND VNB nshort w=520000u l=150000u
++  ad=1.352e+11p pd=1.56e+06u as=0p ps=0u
+M1099 a_27_591# a_278_793# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1100 VGND D[13] a_3421_915# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1101 VPWR D[9] a_824_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1102 Z S[3] a_2133_69# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1103 a_2603_911# D[12] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1104 Z S[8] a_27_911# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1105 a_845_69# D[1] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1106 Z S[15] a_4709_915# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1107 Z S[7] a_4709_69# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1108 VGND D[0] a_27_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1109 VGND D[10] a_1315_911# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1110 a_3421_69# D[5] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1111 Z a_278_793# a_27_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1112 Z S[6] a_3891_47# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1113 Z a_701_47# a_824_333# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1114 a_2603_591# a_2854_793# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1115 VGND S[8] a_278_793# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1116 Z S[2] a_1315_47# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=5.6745e+11p ps=5.52e+06u
+M1117 a_1315_47# D[2] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1118 a_27_911# D[8] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1119 a_3891_911# D[14] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1120 a_1315_297# D[2] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1121 a_3421_915# D[13] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1122 a_4688_333# a_4565_47# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1123 a_2112_333# a_1989_47# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1124 a_1315_297# a_1566_265# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1125 a_2133_69# S[3] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1126 a_1315_591# D[10] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1127 VGND D[2] a_1315_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1128 Z S[12] a_2603_911# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1129 a_4565_47# S[7] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1130 a_845_915# S[9] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1131 a_4709_915# S[15] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1132 a_4565_937# S[15] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=2.7e+11p pd=2.54e+06u as=0p ps=0u
+M1133 VPWR S[2] a_1566_265# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1134 a_3400_591# a_3277_937# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1135 a_2112_333# D[3] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1136 VGND D[11] a_2133_915# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1137 VPWR S[10] a_1566_793# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=2.7e+11p ps=2.54e+06u
+M1138 a_4709_69# S[7] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1139 VGND D[6] a_3891_47# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1140 a_3891_591# a_4142_793# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1141 a_2112_591# D[11] VPWR VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1142 VPWR D[7] a_4688_333# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1143 VPWR D[6] a_3891_297# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1144 VGND S[6] a_4142_265# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1145 a_3891_47# S[6] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1146 Z S[13] a_3421_915# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1147 a_4709_915# D[15] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1148 Z a_4565_47# a_4688_333# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1149 VPWR D[15] a_4688_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1150 VGND S[2] a_1566_265# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=1.352e+11p ps=1.56e+06u
+M1151 a_1315_47# S[2] Z VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1152 VPWR D[14] a_3891_591# VPB phighvt w=1e+06u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1153 Z S[14] a_3891_911# VNB nshort w=520000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1154 VGND D[15] a_4709_915# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1155 a_3891_47# D[6] VGND VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1156 VGND D[3] a_2133_69# VNB nshort w=650000u l=150000u
++  ad=0p pd=0u as=0p ps=0u
+M1157 a_824_591# a_701_937# Z VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1158 Z a_3277_937# a_3400_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+M1159 Z a_2854_793# a_2603_591# VPB phighvt w=820000u l=180000u
++  ad=0p pd=0u as=0p ps=0u
+.ends
+
