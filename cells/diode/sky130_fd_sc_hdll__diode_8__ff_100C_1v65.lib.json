@@ -1,6 +1,6 @@
 {
   "area": 10.0096,
-  "cell_footprint": "diode",
+  "cell_footprint": "sky130_fd_sc_hdll__diode",
   "cell_leakage_power": 0.006958935,
   "leakage_power": [
     {
@@ -12,30 +12,30 @@
       "when": "!DIODE"
     }
   ],
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "related_bias_pin": "VNB",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "related_bias_pin": "VPB",
     "voltage_name": "VPWR"
   },
-  "pin DIODE": {
+  "pin,DIODE": {
     "capacitance": 0.004502,
     "direction": "input",
     "fall_capacitance": 0.004336,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -55,7 +55,7 @@
           0.0016978
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
