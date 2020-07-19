@@ -1,5 +1,5 @@
 {
-  "comp_attribute voltage_map": [
+  "comp_attribute,voltage_map": [
     [
       "VPWR",
       1.65
@@ -18,6 +18,7 @@
     ]
   ],
   "default_max_transition": 1.5,
+  "default_operating_conditions": "ff_n40C_1v65",
   "define": [
     {
       "attribute_name": "switching_power_split_model",
@@ -75,10 +76,9 @@
       "group_name": "library"
     }
   ],
-  "leakage_sim_opt": "runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 reltol=0.004",
   "nom_temperature": -40.0,
   "nom_voltage": 1.65,
-  "operating_conditions ff_n40C_1v65": {
+  "operating_conditions,ff_n40C_1v65": {
     "process": 1.0,
     "temperature": -40.0,
     "tree_type": "balanced_tree",

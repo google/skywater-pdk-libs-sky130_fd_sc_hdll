@@ -1,32 +1,32 @@
 {
   "area": 8.7584,
-  "cell_footprint": "a22oi",
+  "cell_footprint": "sky130_fd_sc_hdll__a22oi",
   "cell_leakage_power": 0.0,
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "related_bias_pin": "VNB",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "related_bias_pin": "VPB",
     "voltage_name": "VPWR"
   },
-  "pin A1": {
+  "pin,A1": {
     "capacitance": 0.002289,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002184,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -46,7 +46,7 @@
           0.0046055
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -72,13 +72,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002393
   },
-  "pin A2": {
+  "pin,A2": {
     "capacitance": 0.002262,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002132,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -98,7 +98,7 @@
           0.004446
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -124,13 +124,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002391
   },
-  "pin B1": {
+  "pin,B1": {
     "capacitance": 0.002269,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002131,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -150,7 +150,7 @@
           0.0046685
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -176,13 +176,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.002407
   },
-  "pin B2": {
+  "pin,B2": {
     "capacitance": 0.002269,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.002108,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -202,7 +202,7 @@
           0.0040389
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0230506,
@@ -228,12 +228,12 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.00243
   },
-  "pin Y": {
+  "pin,Y": {
     "direction": "output",
     "function": "(!A1&!B1) | (!A1&!B2) | (!A2&!B1) | (!A2&!B2)",
     "internal_power": [
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -319,7 +319,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -407,7 +407,7 @@
         "when": "(A2&!B1&!B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -493,7 +493,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -581,7 +581,7 @@
         "when": "(A2&!B1&B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -667,7 +667,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -755,7 +755,7 @@
         "when": "(A2&B1&!B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -841,7 +841,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -929,7 +929,7 @@
         "when": "(A1&!B1&!B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1015,7 +1015,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1103,7 +1103,7 @@
         "when": "(A1&!B1&B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1189,7 +1189,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1277,7 +1277,7 @@
         "when": "(A1&B1&!B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1363,7 +1363,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1451,7 +1451,7 @@
         "when": "(!A1&!A2&B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1537,7 +1537,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1625,7 +1625,7 @@
         "when": "(!A1&A2&B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1711,7 +1711,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1799,7 +1799,7 @@
         "when": "(A1&!A2&B2)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1885,7 +1885,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -1973,7 +1973,7 @@
         "when": "(!A1&!A2&B1)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2059,7 +2059,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2147,7 +2147,7 @@
         "when": "(!A1&A2&B1)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2233,7 +2233,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2328,7 +2328,7 @@
     "related_power_pin": "VPWR",
     "timing": [
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2413,7 +2413,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2498,7 +2498,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2584,7 +2584,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2675,7 +2675,7 @@
         "when": "(A2&!B1&!B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2760,7 +2760,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2845,7 +2845,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -2931,7 +2931,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3022,7 +3022,7 @@
         "when": "(A2&!B1&B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3107,7 +3107,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3192,7 +3192,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3278,7 +3278,7 @@
           ]
         },
         "related_pin": "A1",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3369,7 +3369,7 @@
         "when": "(A2&B1&!B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3454,7 +3454,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3539,7 +3539,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3625,7 +3625,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3716,7 +3716,7 @@
         "when": "(A1&!B1&!B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3801,7 +3801,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3886,7 +3886,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -3972,7 +3972,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4063,7 +4063,7 @@
         "when": "(A1&!B1&B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4148,7 +4148,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4233,7 +4233,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4319,7 +4319,7 @@
           ]
         },
         "related_pin": "A2",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4410,7 +4410,7 @@
         "when": "(A1&B1&!B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4495,7 +4495,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4580,7 +4580,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4666,7 +4666,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4757,7 +4757,7 @@
         "when": "(!A1&!A2&B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4842,7 +4842,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -4927,7 +4927,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5013,7 +5013,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5104,7 +5104,7 @@
         "when": "(!A1&A2&B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5189,7 +5189,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5274,7 +5274,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5360,7 +5360,7 @@
           ]
         },
         "related_pin": "B1",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5451,7 +5451,7 @@
         "when": "(A1&!A2&B2)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5536,7 +5536,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5621,7 +5621,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5707,7 +5707,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5798,7 +5798,7 @@
         "when": "(!A1&!A2&B1)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5883,7 +5883,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -5968,7 +5968,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -6054,7 +6054,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -6145,7 +6145,7 @@
         "when": "(!A1&A2&B1)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -6230,7 +6230,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -6315,7 +6315,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,
@@ -6401,7 +6401,7 @@
           ]
         },
         "related_pin": "B2",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0230506,

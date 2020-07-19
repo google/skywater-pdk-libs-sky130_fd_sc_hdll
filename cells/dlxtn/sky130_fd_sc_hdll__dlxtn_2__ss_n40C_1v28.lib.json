@@ -1,36 +1,36 @@
 {
   "area": 17.5168,
-  "cell_footprint": "dlxtn",
+  "cell_footprint": "sky130_fd_sc_hdll__dlxtn",
   "cell_leakage_power": 0.0,
-  "latch IQ,IQ_N": {
+  "latch,IQ,IQ_N": {
     "data_in": "D",
     "enable": "!GATE_N"
   },
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "related_bias_pin": "VNB",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "related_bias_pin": "VPB",
     "voltage_name": "VPWR"
   },
-  "pin D": {
+  "pin,D": {
     "capacitance": 0.001337,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.00128,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -50,7 +50,7 @@
           0.0036091
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -77,7 +77,7 @@
     "rise_capacitance": 0.001394,
     "timing": [
       {
-        "fall_constraint vio_3_3_1": {
+        "fall_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             2.5,
@@ -107,7 +107,7 @@
           ]
         },
         "related_pin": "GATE_N",
-        "rise_constraint vio_3_3_1": {
+        "rise_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             2.5,
@@ -141,7 +141,7 @@
         "violation_delay_degrade_pct": 10.0
       },
       {
-        "fall_constraint vio_3_3_1": {
+        "fall_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             2.5,
@@ -171,7 +171,7 @@
           ]
         },
         "related_pin": "GATE_N",
-        "rise_constraint vio_3_3_1": {
+        "rise_constraint,vio_3_3_1": {
           "index_1": [
             0.01,
             2.5,
@@ -206,13 +206,13 @@
       }
     ]
   },
-  "pin GATE_N": {
+  "pin,GATE_N": {
     "capacitance": 0.001268,
     "clock": "true",
     "direction": "input",
     "fall_capacitance": 0.001255,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -232,7 +232,7 @@
           0.008593
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -258,7 +258,7 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.001355,
     "timing": {
-      "fall_constraint constraint_3_0_1": {
+      "fall_constraint,constraint_3_0_1": {
         "index_1": [
           0.01,
           2.5,
@@ -276,12 +276,12 @@
       "violation_delay_degrade_pct": 10.0
     }
   },
-  "pin Q": {
+  "pin,Q": {
     "direction": "output",
     "function": "IQ",
     "internal_power": [
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -367,7 +367,7 @@
           ]
         },
         "related_pin": "D",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -455,13 +455,13 @@
         "when": "(!GATE_N)"
       },
       {
-        "fall_power scalar": {
+        "fall_power,scalar": {
           "values": [
             0.0
           ]
         },
         "related_pin": "GATE_N",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -549,7 +549,7 @@
         "when": "(D)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -635,7 +635,7 @@
           ]
         },
         "related_pin": "GATE_N",
-        "rise_power scalar": {
+        "rise_power,scalar": {
           "values": [
             0.0
           ]
@@ -650,7 +650,7 @@
     "related_power_pin": "VPWR",
     "timing": [
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -735,7 +735,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -820,7 +820,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -906,7 +906,7 @@
           ]
         },
         "related_pin": "D",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -997,7 +997,7 @@
         "when": "(!GATE_N)"
       },
       {
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1083,7 +1083,7 @@
           ]
         },
         "related_pin": "GATE_N",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1174,7 +1174,7 @@
         "when": "(D)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1259,7 +1259,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,

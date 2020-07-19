@@ -1,32 +1,32 @@
 {
   "area": 12.512,
-  "cell_footprint": "or4bb",
+  "cell_footprint": "sky130_fd_sc_hdll__or4bb",
   "cell_leakage_power": 0.0,
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "related_bias_pin": "VNB",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "related_bias_pin": "VPB",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.001225,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.001189,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -46,7 +46,7 @@
           0.0002807
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -72,13 +72,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.001261
   },
-  "pin B": {
+  "pin,B": {
     "capacitance": 0.001304,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.001273,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -98,7 +98,7 @@
           0.0010595
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -124,13 +124,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.001335
   },
-  "pin C_N": {
+  "pin,C_N": {
     "capacitance": 0.001208,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.001167,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -150,7 +150,7 @@
           0.00332
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -176,13 +176,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.001247
   },
-  "pin D_N": {
+  "pin,D_N": {
     "capacitance": 0.0011,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.001062,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -202,7 +202,7 @@
           0.0028967
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -228,12 +228,12 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.001139
   },
-  "pin X": {
+  "pin,X": {
     "direction": "output",
     "function": "(A) | (B) | (!C_N) | (!D_N)",
     "internal_power": [
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -319,7 +319,7 @@
           ]
         },
         "related_pin": "A",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -407,7 +407,7 @@
         "when": "(!B&C_N&D_N)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -493,7 +493,7 @@
           ]
         },
         "related_pin": "B",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -581,7 +581,7 @@
         "when": "(!A&C_N&D_N)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -667,7 +667,7 @@
           ]
         },
         "related_pin": "C_N",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -755,7 +755,7 @@
         "when": "(!A&!B&D_N)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -841,7 +841,7 @@
           ]
         },
         "related_pin": "D_N",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -936,7 +936,7 @@
     "related_power_pin": "VPWR",
     "timing": [
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1021,7 +1021,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1106,7 +1106,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1192,7 +1192,7 @@
           ]
         },
         "related_pin": "A",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1283,7 +1283,7 @@
         "when": "(!B&C_N&D_N)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1368,7 +1368,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1453,7 +1453,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1539,7 +1539,7 @@
           ]
         },
         "related_pin": "B",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1630,7 +1630,7 @@
         "when": "(!A&C_N&D_N)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1715,7 +1715,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1800,7 +1800,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1886,7 +1886,7 @@
           ]
         },
         "related_pin": "C_N",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1977,7 +1977,7 @@
         "when": "(!A&!B&D_N)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -2062,7 +2062,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -2147,7 +2147,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -2233,7 +2233,7 @@
           ]
         },
         "related_pin": "D_N",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,

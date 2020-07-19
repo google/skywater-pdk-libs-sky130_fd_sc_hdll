@@ -1,32 +1,32 @@
 {
   "area": 25.024,
-  "cell_footprint": "einvn",
+  "cell_footprint": "sky130_fd_sc_hdll__einvn",
   "cell_leakage_power": 0.0,
-  "pg_pin VGND": {
+  "pg_pin,VGND": {
     "pg_type": "primary_ground",
     "related_bias_pin": "VNB",
     "voltage_name": "VGND"
   },
-  "pg_pin VNB": {
+  "pg_pin,VNB": {
     "pg_type": "pwell",
     "voltage_name": "VNB"
   },
-  "pg_pin VPB": {
+  "pg_pin,VPB": {
     "pg_type": "nwell",
     "voltage_name": "VPB"
   },
-  "pg_pin VPWR": {
+  "pg_pin,VPWR": {
     "pg_type": "primary_power",
     "related_bias_pin": "VPB",
     "voltage_name": "VPWR"
   },
-  "pin A": {
+  "pin,A": {
     "capacitance": 0.014113,
     "clock": "false",
     "direction": "input",
     "fall_capacitance": 0.013427,
     "internal_power": {
-      "fall_power power_inputs_1": {
+      "fall_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -46,7 +46,7 @@
           0.0131211
         ]
       },
-      "rise_power power_inputs_1": {
+      "rise_power,power_inputs_1": {
         "index_1": [
           0.01,
           0.0281727,
@@ -72,7 +72,7 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.014799
   },
-  "pin TE_B": {
+  "pin,TE_B": {
     "capacitance": 0.008183,
     "clock": "false",
     "direction": "input",
@@ -82,13 +82,13 @@
     "related_power_pin": "VPWR",
     "rise_capacitance": 0.009472
   },
-  "pin Z": {
+  "pin,Z": {
     "capacitance": 0.008547,
     "direction": "output",
     "function": "(!A)",
     "internal_power": [
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -174,7 +174,7 @@
           ]
         },
         "related_pin": "A",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -262,7 +262,7 @@
         "when": "(!TE_B)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -348,7 +348,7 @@
           ]
         },
         "related_pin": "TE_B",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -436,7 +436,7 @@
         "when": "(!A)"
       },
       {
-        "fall_power power_outputs_1": {
+        "fall_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -522,7 +522,7 @@
           ]
         },
         "related_pin": "TE_B",
-        "rise_power power_outputs_1": {
+        "rise_power,power_outputs_1": {
           "index_1": [
             0.01,
             0.0281727,
@@ -618,7 +618,7 @@
     "three_state": "(TE_B)",
     "timing": [
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -703,7 +703,7 @@
             ]
           ]
         },
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -788,7 +788,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -874,7 +874,7 @@
           ]
         },
         "related_pin": "A",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -965,7 +965,7 @@
         "when": "(!TE_B)"
       },
       {
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1051,7 +1051,7 @@
           ]
         },
         "related_pin": "TE_B",
-        "rise_transition del_1_7_7": {
+        "rise_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1142,7 +1142,7 @@
         "when": "(!A)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1227,7 +1227,7 @@
             ]
           ]
         },
-        "fall_transition del_1_7_7": {
+        "fall_transition,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1319,7 +1319,7 @@
         "when": "(A)"
       },
       {
-        "cell_rise del_1_7_7": {
+        "cell_rise,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1405,7 +1405,7 @@
           ]
         },
         "related_pin": "TE_B",
-        "rise_transition scalar": {
+        "rise_transition,scalar": {
           "values": [
             0.0
           ]
@@ -1416,7 +1416,7 @@
         "when": "(A)"
       },
       {
-        "cell_fall del_1_7_7": {
+        "cell_fall,del_1_7_7": {
           "index_1": [
             0.01,
             0.0281727,
@@ -1501,7 +1501,7 @@
             ]
           ]
         },
-        "fall_transition scalar": {
+        "fall_transition,scalar": {
           "values": [
             0.0
           ]
