@@ -226,3 +226,4 @@ MACRO sky130_fd_sc_hdll__xor3_1
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__xor3_1
+END LIBRARY

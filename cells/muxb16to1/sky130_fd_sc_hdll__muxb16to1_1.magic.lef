@@ -868,3 +868,4 @@ MACRO sky130_fd_sc_hdll__muxb16to1_1
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__muxb16to1_1
+END LIBRARY

@@ -291,3 +291,4 @@ MACRO sky130_fd_sc_hdll__sdfstp_1
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__sdfstp_1
+END LIBRARY

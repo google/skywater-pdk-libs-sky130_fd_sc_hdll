@@ -120,3 +120,4 @@ MACRO sky130_fd_sc_hdll__a21oi_1
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__a21oi_1
+END LIBRARY
