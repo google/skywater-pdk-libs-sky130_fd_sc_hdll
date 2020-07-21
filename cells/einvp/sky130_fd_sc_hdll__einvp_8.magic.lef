@@ -168,3 +168,4 @@ MACRO sky130_fd_sc_hdll__einvp_8
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__einvp_8
+END LIBRARY

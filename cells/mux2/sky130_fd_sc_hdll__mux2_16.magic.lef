@@ -301,3 +301,4 @@ MACRO sky130_fd_sc_hdll__mux2_16
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__mux2_16
+END LIBRARY

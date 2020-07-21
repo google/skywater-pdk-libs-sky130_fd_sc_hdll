@@ -56,3 +56,4 @@ MACRO sky130_fd_sc_hdll__tap_1
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__tap_1
+END LIBRARY

@@ -190,3 +190,4 @@ MACRO sky130_fd_sc_hdll__probec_p_8
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__probec_p_8
+END LIBRARY

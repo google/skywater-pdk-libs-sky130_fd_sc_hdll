@@ -70,3 +70,4 @@ MACRO sky130_fd_sc_hdll__decap_3
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__decap_3
+END LIBRARY

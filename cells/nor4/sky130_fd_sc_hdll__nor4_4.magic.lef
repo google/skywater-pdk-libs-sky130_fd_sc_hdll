@@ -184,3 +184,4 @@ MACRO sky130_fd_sc_hdll__nor4_4
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__nor4_4
+END LIBRARY

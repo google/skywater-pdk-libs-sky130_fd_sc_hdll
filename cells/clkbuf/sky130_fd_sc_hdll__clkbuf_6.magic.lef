@@ -119,3 +119,4 @@ MACRO sky130_fd_sc_hdll__clkbuf_6
   PROPERTY prCellType "standard" ;
   PROPERTY originalViewName "layout" ;
 END sky130_fd_sc_hdll__clkbuf_6
+END LIBRARY
