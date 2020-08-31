@@ -1,0 +1,48 @@
+* File: sky130_fd_sc_hdll__diode_4.pex.spice
+* Created: Thu Aug 27 19:05:12 2020
+* Program "Calibre xRC"
+* Version "v2018.4_34.26"
+* Nominal Temperature: 27C
+* Circuit Temperature: 27C
+* 
+.subckt PM_SKY130_FD_SC_HDLL__DIODE_4%DIODE 1 4 5 6 7 8 9 29
+r7 8 9 2.48383 $w=1.668e-06 $l=3.4e-07 $layer=LI1_cond $X=0.92 $Y=1.87 $X2=0.92
++ $Y2=2.21
+r8 7 8 2.48383 $w=1.668e-06 $l=3.4e-07 $layer=LI1_cond $X=0.92 $Y=1.53 $X2=0.92
++ $Y2=1.87
+r9 6 7 2.48383 $w=1.668e-06 $l=3.4e-07 $layer=LI1_cond $X=0.92 $Y=1.19 $X2=0.92
++ $Y2=1.53
+r10 5 6 2.48383 $w=1.668e-06 $l=3.4e-07 $layer=LI1_cond $X=0.92 $Y=0.85 $X2=0.92
++ $Y2=1.19
+r11 4 5 2.48383 $w=1.668e-06 $l=3.4e-07 $layer=LI1_cond $X=0.92 $Y=0.51 $X2=0.92
++ $Y2=0.85
+r12 4 29 1.02275 $w=1.668e-06 $l=1.4e-07 $layer=LI1_cond $X=0.92 $Y=0.51
++ $X2=0.92 $Y2=0.37
+r13 1 29 45.5 $w=1.7e-07 $l=1.48492e-06 $layer=licon1_NDIFF $count=4 $X=0.155
++ $Y=0.195 $X2=1.555 $Y2=0.37
+r14 1 29 45.5 $w=1.7e-07 $l=2.3103e-07 $layer=licon1_NDIFF $count=4 $X=0.155
++ $Y=0.195 $X2=0.285 $Y2=0.37
+.ends
+
+.subckt PM_SKY130_FD_SC_HDLL__DIODE_4%VGND 1 8 9
+r5 8 9 4.65 $w=1.7e-07 $l=3.4e-07 $layer=mcon $count=2 $X=1.61 $Y=0 $X2=1.61
++ $Y2=0
+r6 4 8 90.0321 $w=1.68e-07 $l=1.38e-06 $layer=LI1_cond $X=0.23 $Y=0 $X2=1.61
++ $Y2=0
+r7 1 9 0.392668 $w=4.8e-07 $l=1.38e-06 $layer=MET1_cond $X=0.23 $Y=0 $X2=1.61
++ $Y2=0
+r8 1 4 4.65 $w=1.7e-07 $l=3.4e-07 $layer=mcon $count=2 $X=0.23 $Y=0 $X2=0.23
++ $Y2=0
+.ends
+
+.subckt PM_SKY130_FD_SC_HDLL__DIODE_4%VPWR 1 8 9
+r5 8 9 4.65 $w=1.7e-07 $l=3.4e-07 $layer=mcon $count=2 $X=1.61 $Y=2.72 $X2=1.61
++ $Y2=2.72
+r6 4 8 90.0321 $w=1.68e-07 $l=1.38e-06 $layer=LI1_cond $X=0.23 $Y=2.72 $X2=1.61
++ $Y2=2.72
+r7 1 9 0.392668 $w=4.8e-07 $l=1.38e-06 $layer=MET1_cond $X=0.23 $Y=2.72 $X2=1.61
++ $Y2=2.72
+r8 1 4 4.65 $w=1.7e-07 $l=3.4e-07 $layer=mcon $count=2 $X=0.23 $Y=2.72 $X2=0.23
++ $Y2=2.72
+.ends
+
