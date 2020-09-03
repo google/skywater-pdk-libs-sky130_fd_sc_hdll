@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hdll__sdfrbp_1.pxi.spice
-* Created: Thu Aug 27 19:26:14 2020
+* Created: Wed Sep  2 08:50:42 2020
 * 
 x_PM_SKY130_FD_SC_HDLL__SDFRBP_1%CLK N_CLK_c_275_n N_CLK_M1015_g N_CLK_c_272_n
 + N_CLK_M1028_g CLK CLK N_CLK_c_274_n PM_SKY130_FD_SC_HDLL__SDFRBP_1%CLK

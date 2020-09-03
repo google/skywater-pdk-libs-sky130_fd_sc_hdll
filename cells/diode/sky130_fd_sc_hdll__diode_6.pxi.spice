@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hdll__diode_6.pxi.spice
-* Created: Thu Aug 27 19:05:18 2020
+* Created: Wed Sep  2 08:28:57 2020
 * 
 x_PM_SKY130_FD_SC_HDLL__DIODE_6%DIODE N_DIODE_D0_noxref_neg DIODE DIODE
 + N_DIODE_c_8_n PM_SKY130_FD_SC_HDLL__DIODE_6%DIODE

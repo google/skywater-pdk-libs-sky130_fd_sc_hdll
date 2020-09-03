@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hdll__decap_4.pxi.spice
-* Created: Thu Aug 27 19:04:04 2020
+* Created: Wed Sep  2 08:27:39 2020
 * 
 x_PM_SKY130_FD_SC_HDLL__DECAP_4%VGND N_VGND_M1001_s VGND N_VGND_c_11_n
 + N_VGND_M1000_g N_VGND_c_12_n N_VGND_c_13_n PM_SKY130_FD_SC_HDLL__DECAP_4%VGND

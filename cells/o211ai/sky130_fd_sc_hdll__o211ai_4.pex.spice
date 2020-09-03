@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hdll__o211ai_4.pex.spice
-* Created: Thu Aug 27 19:18:45 2020
+* Created: Wed Sep  2 08:42:54 2020
 * Program "Calibre xRC"
 * Version "v2018.4_34.26"
 * Nominal Temperature: 27C
@@ -503,7 +503,7 @@ r146 1 35 182 $w=1.7e-07 $l=2.41402e-07 $layer=licon1_NDIFF $count=1 $X=5.86
 + $Y=0.235 $X2=6.045 $Y2=0.365
 .ends
 
-.subckt PM_SKY130_FD_SC_HDLL__O211AI_4%noxref_10 1 2 3 4 5 6 7 22 24 25 30 32 34
+.subckt PM_SKY130_FD_SC_HDLL__O211AI_4%A_27_47# 1 2 3 4 5 6 7 22 24 25 30 32 34
 + 41 42 43 49 59
 c128 42 0 1.15388e-19 $X=8.26 $Y=0.51
 c129 34 0 1.88158e-19 $X=8.32 $Y=0.395
@@ -649,7 +649,7 @@ r158 1 46 182 $w=1.7e-07 $l=2.44643e-07 $layer=licon1_NDIFF $count=1 $X=0.55
 + $Y=0.235 $X2=0.74 $Y2=0.36
 .ends
 
-.subckt PM_SKY130_FD_SC_HDLL__O211AI_4%noxref_12 1 2 11
+.subckt PM_SKY130_FD_SC_HDLL__O211AI_4%A_886_47# 1 2 11
 c27 11 0 1.81301e-19 $X=6.515 $Y=0.725
 r28 8 11 116.763 $w=1.78e-07 $l=1.895e-06 $layer=LI1_cond $X=4.62 $Y=0.725
 + $X2=6.515 $Y2=0.725

@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hdll__dfrtp_4.pxi.spice
-* Created: Thu Aug 27 19:04:38 2020
+* Created: Wed Sep  2 08:28:14 2020
 * 
 x_PM_SKY130_FD_SC_HDLL__DFRTP_4%CLK N_CLK_c_218_n N_CLK_c_222_n N_CLK_c_223_n
 + N_CLK_M1004_g N_CLK_c_219_n N_CLK_M1021_g CLK CLK

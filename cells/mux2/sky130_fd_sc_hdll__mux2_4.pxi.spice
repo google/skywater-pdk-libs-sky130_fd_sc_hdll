@@ -1,5 +1,5 @@
 * File: sky130_fd_sc_hdll__mux2_4.pxi.spice
-* Created: Thu Aug 27 19:10:48 2020
+* Created: Wed Sep  2 08:34:37 2020
 * 
 x_PM_SKY130_FD_SC_HDLL__MUX2_4%S N_S_c_80_n N_S_M1004_g N_S_c_81_n N_S_M1010_g
 + N_S_c_88_n N_S_M1012_g N_S_c_82_n N_S_M1008_g N_S_c_83_n N_S_c_93_p
