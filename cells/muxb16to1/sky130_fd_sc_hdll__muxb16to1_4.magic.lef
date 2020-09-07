@@ -18,9 +18,6 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-UNITS
-  DATABASE MICRONS 200 ;
-END UNITS
 PROPERTYDEFINITIONS
   MACRO maskLayoutSubType STRING ;
   MACRO prCellType STRING ;
@@ -651,7 +648,6 @@ MACRO sky130_fd_sc_hdll__muxb16to1_4
     END
   END VGND
   PIN VNB
-    ANTENNADIFFAREA  0.089250 ;
     PORT
       LAYER li1 ;
         RECT 25.845000 0.265000 26.135000 0.810000 ;
@@ -660,6 +656,70 @@ MACRO sky130_fd_sc_hdll__muxb16to1_4
       LAYER li1 ;
         RECT 25.845000 4.630000 26.135000 5.175000 ;
     END
+    PORT
+      LAYER pwell ;
+        RECT 0.145000 -0.085000 0.315000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 0.145000 5.355000 0.315000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 12.565000 -0.085000 12.735000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 12.565000 5.355000 12.735000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 13.025000 -0.085000 13.195000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 13.025000 5.355000 13.195000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 25.445000 -0.085000 25.615000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 25.445000 5.355000 25.615000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 26.365000 -0.085000 26.535000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 26.365000 5.355000 26.535000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 38.785000 -0.085000 38.955000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 38.785000 5.355000 38.955000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 39.245000 -0.085000 39.415000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 39.245000 5.355000 39.415000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 51.665000 -0.085000 51.835000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 51.665000 5.355000 51.835000 5.525000 ;
+    END
   END VNB
   PIN VPB
     ANTENNADIFFAREA  0.297500 ;
@@ -667,6 +727,10 @@ MACRO sky130_fd_sc_hdll__muxb16to1_4
       LAYER li1 ;
         RECT 25.845000 1.470000 26.135000 2.455000 ;
         RECT 25.845000 2.985000 26.135000 3.970000 ;
+    END
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 52.170000 4.135000 ;
     END
   END VPB
   PIN VPWR
