@@ -53,7 +53,7 @@ module sky130_fd_sc_hdll__muxb8to1_4 (
     input        VGND;
     input        VPB ;
     input        VNB ;
-    sky130_fd_sc_hdll__muxb8to1 cell (
+    sky130_fd_sc_hdll__muxb8to1 base (
         .Z(Z),
         .D(D),
         .S(S),
@@ -95,7 +95,7 @@ module sky130_fd_sc_hdll__muxb8to1_4 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hdll__muxb8to1 cell (
+    sky130_fd_sc_hdll__muxb8to1 base (
         .Z(Z),
         .D(D),
         .S(S)

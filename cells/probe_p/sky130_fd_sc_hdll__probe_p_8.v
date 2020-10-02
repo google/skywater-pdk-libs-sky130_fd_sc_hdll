@@ -51,7 +51,7 @@ module sky130_fd_sc_hdll__probe_p_8 (
     input  VGND;
     input  VPB ;
     input  VNB ;
-    sky130_fd_sc_hdll__probe_p cell (
+    sky130_fd_sc_hdll__probe_p base (
         .X(X),
         .A(A),
         .VPWR(VPWR),
@@ -90,7 +90,7 @@ module sky130_fd_sc_hdll__probe_p_8 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hdll__probe_p cell (
+    sky130_fd_sc_hdll__probe_p base (
         .X(X),
         .A(A)
     );

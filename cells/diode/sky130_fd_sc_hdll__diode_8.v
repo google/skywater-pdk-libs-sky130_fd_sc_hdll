@@ -49,7 +49,7 @@ module sky130_fd_sc_hdll__diode_8 (
     input VGND ;
     input VPB  ;
     input VNB  ;
-    sky130_fd_sc_hdll__diode cell (
+    sky130_fd_sc_hdll__diode base (
         .DIODE(DIODE),
         .VPWR(VPWR),
         .VGND(VGND),
@@ -85,7 +85,7 @@ module sky130_fd_sc_hdll__diode_8 (
     supply1 VPB ;
     supply0 VNB ;
 
-    sky130_fd_sc_hdll__diode cell (
+    sky130_fd_sc_hdll__diode base (
         .DIODE(DIODE)
     );
 
