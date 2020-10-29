@@ -39,12 +39,6 @@ MACRO sky130_fd_sc_hdll__clkbuf_1
         RECT 1.365000 0.985000 1.745000 1.355000 ;
     END
   END A
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190000 1.305000 2.030000 2.910000 ;
-    END
-  END VPB
   PIN X
     ANTENNADIFFAREA  0.374500 ;
     DIRECTION OUTPUT ;
@@ -64,6 +58,14 @@ MACRO sky130_fd_sc_hdll__clkbuf_1
         RECT 0.000000 -0.240000 1.840000 0.240000 ;
     END
   END VGND
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 2.030000 2.910000 ;
+    END
+  END VPB
   PIN VPWR
     DIRECTION INOUT ;
     USE POWER ;
