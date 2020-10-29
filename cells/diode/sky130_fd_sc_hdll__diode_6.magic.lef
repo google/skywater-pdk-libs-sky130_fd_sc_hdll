@@ -40,13 +40,25 @@ MACRO sky130_fd_sc_hdll__diode_6
         RECT 0.085000 0.255000 2.675000 2.465000 ;
     END
   END DIODE
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met1 ;
+        RECT 0.000000 -0.240000 2.760000 0.240000 ;
+    END
+  END VGND
   PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
     PORT
       LAYER pwell ;
         RECT 0.145000 -0.085000 0.315000 0.085000 ;
     END
   END VNB
   PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER nwell ;
         RECT -0.190000 1.305000 0.650000 2.070000 ;
@@ -54,14 +66,8 @@ MACRO sky130_fd_sc_hdll__diode_6
         RECT  2.110000 1.305000 2.950000 2.070000 ;
     END
   END VPB
-  PIN VGND
-    USE GROUND ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000000 -0.240000 2.760000 0.240000 ;
-    END
-  END VGND
   PIN VPWR
+    DIRECTION INPUT ;
     USE POWER ;
     PORT
       LAYER met1 ;

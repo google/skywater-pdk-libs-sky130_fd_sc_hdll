@@ -465,54 +465,6 @@ MACRO sky130_fd_sc_hdll__muxb16to1_1
         RECT 0.000000 5.200000 17.020000 5.680000 ;
     END
   END VGND
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.145000 -0.085000 0.315000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 0.145000 5.355000 0.315000 5.525000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 12.565000 -0.085000 12.735000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 12.565000 5.355000 12.735000 5.525000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 16.705000 -0.085000 16.875000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 16.705000 5.355000 16.875000 5.525000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 4.285000 -0.085000 4.455000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 4.285000 5.355000 4.455000 5.525000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 8.425000 -0.085000 8.595000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 8.425000 5.355000 8.595000 5.525000 ;
-    END
-  END VNB
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190000 1.305000 17.210000 4.135000 ;
-    END
-  END VPB
   PIN VPWR
     ANTENNADIFFAREA  6.380000 ;
     DIRECTION INOUT ;
@@ -764,6 +716,58 @@ MACRO sky130_fd_sc_hdll__muxb16to1_1
         RECT 15.725000 3.640000 16.015000 3.685000 ;
     END
   END Z
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.145000 -0.085000 0.315000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 0.145000 5.355000 0.315000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 12.565000 -0.085000 12.735000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 12.565000 5.355000 12.735000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 16.705000 -0.085000 16.875000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 16.705000 5.355000 16.875000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 4.285000 -0.085000 4.455000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 4.285000 5.355000 4.455000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 8.425000 -0.085000 8.595000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 8.425000 5.355000 8.595000 5.525000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 17.210000 4.135000 ;
+    END
+  END VPB
   OBS
     LAYER li1 ;
       RECT  1.240000 1.175000  1.630000 1.465000 ;

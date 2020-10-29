@@ -341,38 +341,6 @@ MACRO sky130_fd_sc_hdll__muxb8to1_4
         RECT 0.000000 5.200000 24.840000 5.680000 ;
     END
   END VGND
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.145000 -0.085000 0.315000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 0.145000 5.355000 0.315000 5.525000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 18.545000 -0.085000 18.715000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 18.545000 5.355000 18.715000 5.525000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 6.125000 -0.085000 6.295000 0.085000 ;
-    END
-    PORT
-      LAYER pwell ;
-        RECT 6.125000 5.355000 6.295000 5.525000 ;
-    END
-  END VNB
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190000 1.305000 25.030000 4.135000 ;
-    END
-  END VPB
   PIN VPWR
     ANTENNADIFFAREA  9.422400 ;
     DIRECTION INOUT ;
@@ -494,6 +462,42 @@ MACRO sky130_fd_sc_hdll__muxb8to1_4
         RECT 22.325000 3.640000 22.615000 3.685000 ;
     END
   END Z
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.145000 -0.085000 0.315000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 0.145000 5.355000 0.315000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 18.545000 -0.085000 18.715000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 18.545000 5.355000 18.715000 5.525000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 6.125000 -0.085000 6.295000 0.085000 ;
+    END
+    PORT
+      LAYER pwell ;
+        RECT 6.125000 5.355000 6.295000 5.525000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 25.030000 4.135000 ;
+    END
+  END VPB
   OBS
     LAYER li1 ;
       RECT  0.000000 2.635000  2.035000 2.805000 ;

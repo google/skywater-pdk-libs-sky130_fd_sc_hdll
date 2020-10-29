@@ -54,18 +54,6 @@ MACRO sky130_fd_sc_hdll__probec_p_8
         RECT 4.560000 -0.455000 6.675000 -0.155000 ;
     END
   END VGND
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.150000 -0.085000 0.320000 0.085000 ;
-    END
-  END VNB
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190000 1.305000 6.170000 2.910000 ;
-    END
-  END VPB
   PIN VPWR
     ANTENNADIFFAREA  1.720000 ;
     DIRECTION INPUT ;
@@ -89,6 +77,22 @@ MACRO sky130_fd_sc_hdll__probec_p_8
         RECT -1.260000 0.560000 1.060000 2.160000 ;
     END
   END X
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.150000 -0.085000 0.320000 0.085000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 6.170000 2.910000 ;
+    END
+  END VPB
   OBS
     LAYER li1 ;
       RECT 0.000000 -0.085000 5.980000 0.085000 ;
