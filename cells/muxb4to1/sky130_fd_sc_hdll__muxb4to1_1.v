@@ -72,22 +72,14 @@ endmodule
 
 `celldefine
 module sky130_fd_sc_hdll__muxb4to1_1 (
-    Z   ,
-    D   ,
-    S   ,
-    VPWR,
-    VGND,
-    VPB ,
-    VNB
+    Z,
+    D,
+    S
 );
 
-    output       Z   ;
-    input  [3:0] D   ;
-    input  [3:0] S   ;
-    input        VPWR;
-    input        VGND;
-    input        VPB ;
-    input        VNB ;
+    output       Z;
+    input  [3:0] D;
+    input  [3:0] S;
 
     // Voltage supply signals
     supply1 VPWR;
